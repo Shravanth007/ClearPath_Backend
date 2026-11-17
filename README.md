@@ -50,6 +50,8 @@ Groq_Llama_33_70b_versatile=your_api_key_here
 Groq_Llama_31_8b_instant=your_api_key_here
 ```
 
+Optional: `ALLOWED_ORIGINS` is a comma-separated list of origins allowed by CORS. If unset, it defaults to `https://clear-path-frontend.vercel.app` and `http://localhost:3000`.
+
 ### 5. Build the BM25 index
 
 ```bash
